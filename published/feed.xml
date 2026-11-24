@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Infrawatch Blog</title>
+    <link>https://infrawatch.com/blog</link>
+    <description>Research and updates from Infrawatch.</description>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 24 Nov 2026 10:36:36 GMT</lastBuildDate>
+    <ttl>60</ttl>
+    <atom:link href="https://infrawatch.com/rss" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Autonomy of the Autonomous Intrusions: Analysis of 128 AI Attacks &amp; 8,105 Hosts</title>
+      <link>https://infrawatch.com/blog/the-autonomy-of-the-autonomous-intrusions</link>
+      <guid isPermaLink="true">https://infrawatch.com/blog/the-autonomy-of-the-autonomous-intrusions</guid>
+      <description>8,105 hosts now run software that attacks other systems without a person at the keyboard. Infrawatch read 128 of those attacks from the inside.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Infrawatch Research</dc:creator>
+      <media:content url="https://framerusercontent.com/images/ssSx13CeYhWAlH8XtxVTXmLgxk.png?width=2400&amp;height=1260" medium="image" />
+    </item>
+    <item>
+      <title>10.3K Exposed Fridges: Shared Suppliers and Residential Proxies</title>
+      <link>https://infrawatch.com/blog/exposed-fridges-shared-suppliers-residential-proxies</link>
+      <guid isPermaLink="true">https://infrawatch.com/blog/exposed-fridges-shared-suppliers-residential-proxies</guid>
+      <description>10.3K active refrigeration hosts. Shared suppliers serving food, logistics, pharma and life sciences. And 56 active residential proxy hosts exposing refrigeration controls.</description>
+      <dc:creator>Infrawatch Research</dc:creator>
+      <media:content url="https://framerusercontent.com/images/TSKxqUHb3WY6LJz7rBw1V4GJQMw.png?width=1200&amp;height=630" medium="image" />
+    </item>
+    <item>
+      <title>Internet Exposure Report: 5.48M Active PHP Services Across 3.34M IP Addresses</title>
+      <link>https://infrawatch.com/blog/internet-exposure-report-11m-active-php-services-across-4.38m-ip-addresses</link>
+      <guid isPermaLink="true">https://infrawatch.com/blog/internet-exposure-report-11m-active-php-services-across-4.38m-ip-addresses</guid>
+      <description>5.48 million active services across about 3.34 million IP addresses. The United States leads, with WordPress the most common identified application.</description>
+      <dc:creator>Infrawatch</dc:creator>
+      <media:content url="https://framerusercontent.com/images/09lXNF6zmg5YtYfKVBE3cr5jFM.png?width=2400&amp;height=1260" medium="image" />
+    </item>
+    <item>
+      <title>Ukraine struck Yandex: tracing the Russian internet that resurfaced after a 54% drop</title>
+      <link>https://infrawatch.com/blog/ukrainian-strikes-yandex-internet-service-analysis</link>
+      <guid isPermaLink="true">https://infrawatch.com/blog/ukrainian-strikes-yandex-internet-service-analysis</guid>
+      <description>Yandex Cloud responses fell 54%. We traced services from 16 of its 17 hardest-hit blocks to other providers.</description>
+      <dc:creator>Infrawatch</dc:creator>
+      <media:content url="https://framerusercontent.com/images/R8DpFG78SEQ0T2oicGusQPoaQkU.webp?width=2400&amp;height=1260" medium="image" />
+    </item>
+    <item>
+      <title>The 73,000-server market reselling Western frontier AI into China</title>
+      <link>https://infrawatch.com/blog/73000-servers-selling-western-frontier-ai-into-china-transfer-stations</link>
+      <guid isPermaLink="true">https://infrawatch.com/blog/73000-servers-selling-western-frontier-ai-into-china-transfer-stations</guid>
+      <description>Inside the 73,000-server market reselling Western frontier AI into China</description>
+      <dc:creator>Lloyd</dc:creator>
+      <media:content url="https://framerusercontent.com/images/f26kYKjHhWgcbWV6l1HGDT2Ebs.png?width=1920&amp;height=1280" medium="image" />
+    </item>
+    <item>
+      <title>Join Infrawatch at CISO Karaoke, Black Hat USA 2026</title>
+      <link>https://infrawatch.com/blog/ciso-karaoke-blackhat-usa</link>
+      <guid isPermaLink="true">https://infrawatch.com/blog/ciso-karaoke-blackhat-usa</guid>
+      <description>Infrawatch is delighted to be co-sponsoring CISO Karaoke at Black Hat USA 2026, in partnership with Trident Search.</description>
+      <dc:creator>Lloyd Davies</dc:creator>
+      <media:content url="https://framerusercontent.com/images/Yl4yFiaWRrK32hEAAKT1PRhFfQ.png?width=1672&amp;height=941" medium="image" />
+    </item>
+    <item>
+      <title>Infrawatch Secures Pre-Seed Raise to Build the Infrastructure Intelligence Platform for the Internet</title>
+      <link>https://infrawatch.com/blog/infrawatch-pre-seed-announcement</link>
+      <guid isPermaLink="true">https://infrawatch.com/blog/infrawatch-pre-seed-announcement</guid>
+      <description>Infrawatch today announces it has raised a $3 million pre-seed round to build the Internet Infrastructure Intelligence Layer, a new category of cybersecurity platform</description>
+      <dc:creator>Lloyd Davies</dc:creator>
+      <media:content url="https://framerusercontent.com/images/ARG60QWQlC4O79W7slHphxr0OM.png?width=1948&amp;height=807" medium="image" />
+    </item>
+    <item>
+      <title>SIM Farms as a Service: A Massive Shared Control Plane Operation Spanning 87 Farms</title>
+      <link>https://infrawatch.com/blog/inside-the-mobile-farm-the-oem-stack-powering-us-4g-5g-proxy-networks</link>
+      <guid isPermaLink="true">https://infrawatch.com/blog/inside-the-mobile-farm-the-oem-stack-powering-us-4g-5g-proxy-networks</guid>
+      <description>We identify 87 physical SIM farms across 17 countries, link downstream proxy providers, and describe the technical capabilities that enable large-scale fraud and abusive automation.</description>
+      <dc:creator>Infrawatch</dc:creator>
+      <media:content url="https://framerusercontent.com/images/vwCokvNZneDFCwiqvFvuGZIfAYw.jpg?width=2384&amp;height=988" medium="image" />
+    </item>
+    <item>
+      <title>APT28 DNS Hijacking: Infrawatch Identifies 18.6K Likely Victims and Releases Public IP Checker</title>
+      <link>https://infrawatch.com/blog/apt28-dns-hijacking-infrawatch-identifies-18.6k-likely-victims-and-launches-public-ip-checker</link>
+      <guid isPermaLink="true">https://infrawatch.com/blog/apt28-dns-hijacking-infrawatch-identifies-18.6k-likely-victims-and-launches-public-ip-checker</guid>
+      <description>Infrawatch identified 18.6K likely victims linked to APT28 DNS hijacking activity. Use our checker to see whether your public IP appears in the observed dataset.</description>
+      <dc:creator>Infrawatch</dc:creator>
+      <media:content url="https://framerusercontent.com/images/dakY86c4NZrh9fJb74GG2ssKig.png?width=1536&amp;height=1024" medium="image" />
+    </item>
+    <item>
+      <title>GhostSocks - Lumma's Partner In Proxy</title>
+      <link>https://infrawatch.com/blog/ghostsocks-lummas-partner-in-proxy</link>
+      <guid isPermaLink="true">https://infrawatch.com/blog/ghostsocks-lummas-partner-in-proxy</guid>
+      <description>This analysis explores GhostSocks, a Golang-based SOCKS5 proxy malware, detailing its integration with LummaC2 and its command-and-control infrastructure. We highlight its use of obfuscation and relay-based C2 communication, emphasising the threat it poses to financial institutions and other high-value targets.</description>
+      <dc:creator>Infrawatch</dc:creator>
+      <media:content url="https://framerusercontent.com/images/75qlciJE3s9XDlcDAdEFpLwcQ.webp?width=5324&amp;height=3993" medium="image" />
+    </item>
+    <item>
+      <title>Belarus-Linked DSLRoot Proxy Network Deploys Hardware in U.S. Residences, Including Military Homes</title>
+      <link>https://infrawatch.com/blog/dslroot-us-proxy-investigation</link>
+      <guid isPermaLink="true">https://infrawatch.com/blog/dslroot-us-proxy-investigation</guid>
+      <description>Detailed analysis of DSLRoot, a residential proxy network deploying hardware across U.S. homes, operated by a Belarusian national. Includes technical overview, network footprint, and operator attribution.</description>
+      <dc:creator>Infrawatch</dc:creator>
+      <media:content url="https://framerusercontent.com/images/TsKpG6eIL2XXTukX4sojBUWnQnA.webp?width=4000&amp;height=3000" medium="image" />
+    </item>
+    <item>
+      <title>24 Hours In: 4.39% Show Fixed PHP Versions</title>
+      <link>https://infrawatch.com/blog/php2shell-24-hours-global-php-patch-uptake</link>
+      <guid isPermaLink="true">https://infrawatch.com/blog/php2shell-24-hours-global-php-patch-uptake</guid>
+      <description>Infrawatch sees 102,101 fixed-version observations among 2.33 million PHP services exposing a version worldwide.</description>
+      <dc:creator>Infrawatch</dc:creator>
+      <media:content url="https://framerusercontent.com/images/JiExLXuLcp9SW8MIL8LpIbg0mO4.png?width=2400&amp;height=1260" medium="image" />
+    </item>
+  </channel>
+</rss>
