@@ -2,28 +2,32 @@
 
 RSS for the public [Infrawatch research blog](https://infrawatch.com/blog).
 
-Subscribe at **https://infrawatch.com/rss**. The feed runs on existing
-Infrawatch hosting at https://app.infrawatch.com/blog-rss.xml.
-Framer redirects the subscription URL and includes RSS autodiscovery in the
-site's HTML head. No Framer layout change is needed.
+Subscribe at **https://infrawatch.com/rss**. Framer serves the RSS XML directly
+from Hosting → Files on the main domain, with RSS autodiscovery in the site's
+HTML head. `/rss.xml` is a same-domain alias. There is no RSS route on the
+customer application.
 
 ## How it updates
 
-The feed server refreshes the published blog every 30 minutes when requested.
+The public feed is currently a static snapshot. Regenerate it after publishing
+or editing blog posts, then replace the `rss` file in Framer Hosting → Files
+(path `/`) and publish the main site:
+
+```sh
+python3 build_feed.py --output-dir published
+cp published/feed.xml /path/to/upload/rss
+```
+
 Only links on the public blog index are eligible. Drafts, unlisted items and
 pages marked `noindex` are excluded. The generator uses each article's
 published structured metadata and does not require a Framer plugin or API key.
 Publication dates are included when the article supplies one; missing dates
-are omitted rather than fabricated.
+are omitted rather than fabricated. XML is validated before writing.
 
-The generated feed is validated before replacing the cached copy. A failed
-refresh leaves the last successfully generated feed available. The repository
-includes an initial public snapshot so restarts can serve a valid feed while
-refreshing. HTTP caching and conditional requests reduce unnecessary transfers.
-
-The container uses an existing Infrawatch server. No new subscription, server,
-third-party Python package or stored secret is needed. GitHub Actions is not
-required.
+Framer's documented API does not expose Hosting Files replacement, so this
+native route does not refresh itself. No paid add-on was purchased. The
+optional server implementation is retained for future automated hosting;
+its temporary public app-domain route has been removed and the server stopped.
 
 ## Run locally
 
