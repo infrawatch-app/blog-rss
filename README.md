@@ -1,5 +1,9 @@
 # Infrawatch blog RSS
 
+> **2026-11-28: the Coolify app `blog-rss` (platform-ui-prod-01) is retired.** It had been stopped since
+> 2026-11-24, when Framer Hosting started serving `https://infrawatch.com/rss`. This repo stays active as the
+> manual generator for that file. `serve_feed.py` and the Dockerfile are kept for future automated hosting.
+
 RSS for the public [Infrawatch research blog](https://infrawatch.com/blog).
 
 Subscribe at **https://infrawatch.com/rss**. Framer serves the RSS XML directly
